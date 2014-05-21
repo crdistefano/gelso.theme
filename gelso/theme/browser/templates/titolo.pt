@@ -1,0 +1,1 @@
+<div class="titolo" tal:content="structure view/titolo">Site Title</div>

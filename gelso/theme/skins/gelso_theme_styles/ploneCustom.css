@@ -1,0 +1,167 @@
+div .LSBox{
+	background:url("++resource++gelso.theme.images/foglia.png") no-repeat right center;
+	position:relative;
+	top:1em;
+	z-index:1;
+	float:right;
+	padding:2em;
+	height:51px;
+}
+
+.titolo{
+	position:relative;
+	top:-8vw;
+	left:9em;
+	width:50%;
+	font-size: 2vw;
+	color: #00601D;
+	font-family: "Times New Roman";
+	margin-bottom: -10em;
+	margin-left:5vw;
+}
+
+#portal-globalnav a{
+	color: rgb(0, 96, 29) !important;
+	font-weight: bold;
+}
+
+#portal-globalnav .selected a{
+	background: #e9f6e7;
+}
+
+
+#portal-globalnav a:hover {
+    background: transparent;
+    color : rgb(117, 173, 10) !important;
+}
+
+#portal-globalnav .selected a:hover{
+    background: #e9f6e7;
+    color : rgb(117, 173, 10) !important;
+}
+
+dl.portlet dt {
+    padding: 0.42em 1em;
+    background: none repeat scroll 0% 0% #00621d;
+    line-height: normal;
+    color: white;
+    font-size:14px;
+}
+
+/* @group Navigation portlet */
+
+dl.portlet ul.navTree li{
+    border: medium none;
+    display: block;
+    padding: 0.8em;
+    margin-bottom:2px;
+    color: rgb(0, 96, 29) !important;
+    background-color: #E9F6E7;
+    font-size: 1.1em !important;
+}
+
+.icons-on .contenttype-folder {
+    background: url('fogliolina2.gif') no-repeat scroll 0px center transparent;
+}
+
+.state-published {
+    color: #00621d !important;
+    font-weight: bold;
+}
+
+
+dl.portletNavigationTree dd.portletItem {
+    padding: 0;
+
+}
+
+dl.portlet ul.navTreeLevel0 > .navTreeItem {
+    padding: 0.25em 1em;
+    border-bottom: 0.1em dotted #ddd;
+    line-height: 2em;
+
+}
+
+dl.portlet ul.navTreeLevel1 .navTreeItem {
+    padding-left: 0.5em;
+    line-height: 2em;
+}
+
+dl.portlet ul.navTree .navTreeCurrentItem {
+    background-color: transparent;
+    border-left: 5px solid #00601D;
+    margin-left: -1em;
+    margin-right: -1em;
+}
+
+dl.portlet dt a:link, dl.portlet dt a:visited, dl.portlet dt a:hover {
+    color: #ffffff;
+    display: block;
+    border: medium none;
+}
+
+#portal-personaltools {
+	background: none repeat scroll 0% 0% #00621D;
+}
+
+#portal-personaltools a:link, a:visited {
+    color: #ffffff;
+}
+
+#portal-personaltools dd {
+    background: none repeat scroll 0% 0% #00621D;
+    padding-bottom: 0.5em;
+}
+
+#portal-siteactions {
+    font-size: 85%;
+    padding-bottom: 2em;
+    text-align: right;
+    clear: right;
+    margin-top: 2em;
+    overflow: hidden;
+    padding: 10px 20px;
+    background-color: #F2F2F2;
+}
+
+#portal-siteactions a{
+	color: rgb(34, 34, 34) !important;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+#portal-breadcrumbs a:link {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+#portal-breadcrumbs a:visited{
+	color:black;
+}
+
+dl.portlet dd.portletItem, dl.portlet dd.portletFooter, dl.portletError dd {
+    padding: 0.2em;
+}
+
+#content .callout {
+    background: none repeat scroll 0% 0% #E9F6E7;
+    padding: 1em;
+    border-left: 1em solid #00621D;
+    clear: both;
+}
+
+img.center
+{
+display: block;
+margin-left:auto;
+margin-right:auto;
+}
+
+img.image-left, img.image-right, .captioned img {
+border: 1px solid #00621D;
+}
+
+
+/* @end */

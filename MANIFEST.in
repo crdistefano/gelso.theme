@@ -1,0 +1,2 @@
+recursive-include gelso *
+global-exclude *pyc
